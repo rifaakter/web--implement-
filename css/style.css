@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,500&display=swap');
+
+*{
+	 font-family: 'Poppins', sans-serif;
+	 margin: 0px;
+	 padding: 0px;
+	 box-sizing: border-box;
+	 outline: none;
+	 border: none;
+	 text-decoration: none;
+
+}
+
+.continar{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	padding-bottom: 60px;
+}
+
+.continar .content {
+
+	text-align: center;
+}
+
+.continar .content h3{
+	font-size: 50px;
+	color: #333;
+	text-align: center;
+}
+
+.continar .content h3 span {
+	
+	background-color: crimson;
+	padding: 10px;
+	font-size: 38px;
+	border-radius: 5px;
+	padding: 0 15px;
+	
+	color: #fff;
+}
+
+.continar .content p{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.continar .content .btn{
+	
+	margin: 5px 4px;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-align: center;
+	font-style: oblique;
+	color: #332a2c;
+	display: inline-block;
+	background-color: #fbdede;
+	text-transform: capitalize;
+}
+
+.continar .content .btn:hover{
+	background-color: crimson;
+	color: #fff;
+	
+}
+
+
+
+.regestarion_from_continar{
+	
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	padding-bottom: 60px;
+	background: #eee;
+}
+.regestarion_from_continar form{
+	padding: 20px;
+	border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0.1 );
+	background: #fff
+	text-align: center;
+	width: 500px;
+}
+
+.regestarion_from_continar h3{
+	font-size: 30px;
+	text-transform: uppercase;
+	
+	padding-bottom: 12px;
+	color: #333;
+	text-align: center;
+}
+.regestarion_from_continar input,
+.regestarion_from_continar select{
+	
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 17px;
+	margin: 8px 0px;
+	background: #f0dfdfbd;
+	border-radius: 12px;
+}
+
+.regestarion_from_continar option{
+	background: #fff;
+
+}
+
+.regestarion_from_continar form .submit_btn{
+	background: #fbd0d9;
+	color: crimson;
+	text-transform: capitalize;
+}
+
+.regestarion_from_continar form .submit_btn:hover{
+	background: crimson;
+	color:#fff;
+}
+
+.regestarion_from_continar form p{
+	text-align: center;
+	font-size: 16px;
+	color: #372626;
+
+}
+
+
+.regestarion_from_continar form p a{
+	
+	font-size: 16px;
+	color: crimson;
+
+}
